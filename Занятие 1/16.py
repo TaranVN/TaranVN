@@ -2,7 +2,6 @@
 
 x=input()
 y=input()
-z=input()
 z=y
 y=x
 x=z
