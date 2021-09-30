@@ -1,3 +1,7 @@
 # -*- coding: utf-8 -*-
 
-print('Курс Основы Программирования начался')
+number=int(input())
+if number%2!=0:
+    print("no")
+else:
+    print("yes")
