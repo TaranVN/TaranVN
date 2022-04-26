@@ -1,15 +1,12 @@
-
 public class Z2 {
-public static void main(String par[])
-{
-int N=par.length;
-if(N>0)
-{
-System.out.println("Âû ââåëè "+ N +" ïàðàìåòðîâ");
-}
-else
-{
-System.out.println("Âû íå ïåðåäàâàëè ïàðàìåòðîâ");
-}
-}
+	public static void main(String par[])
+	{
+		int N=par.length;
+		if(N>0) {
+			System.out.println("Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ "+ N +" Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð¾Ð²");
+		}
+		else {
+			System.out.println("Ð’Ñ‹ Ð½Ðµ Ð¿ÐµÑ€ÐµÐ´Ð°Ð²Ð°Ð»Ð¸ Ð¿Ð°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ð¾Ð²");
+		}
+	}
 }
