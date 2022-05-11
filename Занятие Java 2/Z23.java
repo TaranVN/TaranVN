@@ -1,3 +1,6 @@
+// заполнить матрицу случайными элементами и найти среднее 
+// геометрическое положительных элементов в каждом столбце матрицы
+
 import java.util.Vector;
 public class Z23 {
 	public static void main(String[] args) {
