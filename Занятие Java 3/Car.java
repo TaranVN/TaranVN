@@ -9,27 +9,27 @@ public class Car {
 	private String Buyer;
 	
 	
-	void DataMade(int dataMade) {
+	void setDataMade(int dataMade) {
 		this.dataMade = dataMade;
 	}
 	
-	void Price(int price) {
+	void setPrice(int price) {
 		this.price = price;
 	}
 	
-	void Configuration(String configuration) {
+	void setConfiguration(String configuration) {
 		this.configuration = configuration;
 	}
 	
-	void MadeIn(String madeIn) {
+	void setMadeIn(String madeIn) {
 		this.madeIn = madeIn;
 	}
 	
-	void Sold(String sold) {
+	void setSold(String sold) {
 		this.sold = sold;
 	}
 	
-	void Buyer(String Buyer) {
+	void setBuyer(String Buyer) {
 		this.Buyer = Buyer;
 	}
 	
@@ -38,7 +38,7 @@ public class Car {
 	}
 	
 	public String toString() {
-		return "Продажа автомобиля:\n" + "Марка автомобиля - " + this.model + "\nГод выпуска - " + this.dataMade + "\nЦена автомобиля - " + this.price + "\nКомплектация - " + this.configuration + "\nСтрана производитель - " + this.madeIn + "\nДата продажи - " + this.sold + "\nФИО покупателя - " + this.Buyer;     
+		return "РџСЂРѕРґР°Р¶Р° Р°РІС‚РѕРјРѕР±РёР»СЏ:\n" + "РњР°СЂРєР° Р°РІС‚РѕРјРѕР±РёР»СЏ - " + this.model + "\nР“РѕРґ РІС‹РїСѓСЃРєР° - " + this.dataMade + "\nР¦РµРЅР° Р°РІС‚РѕРјРѕР±РёР»СЏ - " + this.price + "\nРљРѕРјРїР»РµРєС‚Р°С†РёСЏ - " + this.configuration + "\nРЎС‚СЂР°РЅР° РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ - " + this.madeIn + "\nР”Р°С‚Р° РїСЂРѕРґР°Р¶Рё - " + this.sold + "\nР¤РРћ РїРѕРєСѓРїР°С‚РµР»СЏ - " + this.Buyer;     
 	}
 
 }
